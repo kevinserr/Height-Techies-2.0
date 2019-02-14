@@ -138,8 +138,9 @@ footer{
     margin-top:20px;
     text-align:left;
   }
-  .box{
+  #boxes .box{
     margin:5vh;
+    width:80%;
   }
   /* #boxes .box img {
     width:100%;
