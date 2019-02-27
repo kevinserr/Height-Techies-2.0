@@ -103,6 +103,11 @@ header a:hover{
   margin-top:20px;
 }
 
+#boxes .box a{
+  text-decoration: none;
+  color: #000;
+}
+
 #boxes .box{
   float:left;
   text-align: center;
@@ -124,6 +129,14 @@ footer{
 
 /* Media Queries */
 @media(max-width: 768px){
+  *{
+    margin-left:0;
+    margin-right:0;
+  }
+  #branding h1{
+    text-align:center;
+    margin-right:100px;
+  }
   header #branding,
   header nav,
   header nav li
@@ -136,11 +149,13 @@ footer{
     float:none;
     display:block;
     margin-top:20px;
-    text-align:left;
+    /* text-align:left; */
   }
-  #boxes .box{
-    margin:5vh;
+ #boxes .box{
+    margin: 5vh;
     width:80%;
+    text-align:center;
+    padding:0px;
   }
   /* #boxes .box img {
     width:100%;
